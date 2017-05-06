@@ -14,7 +14,7 @@ The tiebreaker process is described below:
 
 *If several candidates share the same median grade, all other candidates are eliminated. Then, one copy of that grade is removed from each remaining candidate's list of grades (if there is none, the closest grade), and the new median is found, until there is an unambiguous winner.*
 
-**Important note:** this library currently doesen't perform any sanity check of the provided data. You must ensure yourself that your votes are correct.
+**Important note:** this library currently does not perform any sanity check of the provided data. You must ensure yourself that your votes are correct.
 
 I haven't had time yet to write any formal tests (though you can find some in /tests/majorityJudgment.js). Any help would be welcome.
 
