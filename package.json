@@ -1,0 +1,23 @@
+{
+  "name": "majority-judgment",
+  "version": "0.0.1",
+  "description": "Sort candidates according to majority judgment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vote",
+    "majority",
+    "judgment",
+    "democracy",
+    "majority-judgment",
+    "ballot",
+    "sort",
+    "candidate",
+    "poll"
+  ],
+  "author": "Cobaltway",
+  "repository": "cobaltway/majority-judgment",
+  "license": "MIT"
+}
