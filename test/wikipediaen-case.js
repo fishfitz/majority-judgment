@@ -21,7 +21,7 @@ const candidates = [{
     votes: v(42, 26, 15, 17)
 }];
 
-describe('Wikipedia en case', () => {
+describe('Wikipedia en case', function() {
     const sorted = majorityJudgment(candidates);
     console.log(sorted.map(s => { delete s.votes; return s;}) );
 

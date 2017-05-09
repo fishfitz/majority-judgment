@@ -13,7 +13,7 @@ const candidates = [{
     votes: v(2427, 1158, 1342, 1295, 2073, 1705)
 }];
 
-describe('Wikipedia fr case', () => {
+describe('Wikipedia fr case', function() {
     const sorted = majorityJudgment(candidates);
 
     it('should set A first', () => {
