@@ -20,7 +20,7 @@ The tiebreaker process is described below:
 `npm install majority-judgment --save`
 
 ## Test
-Using [mocha](https://mochajs.org/):
+Using [mocha](https://mochajs.org/), in devDependencies:
 
 `npm run test`
 

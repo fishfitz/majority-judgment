@@ -1,6 +1,6 @@
 {
   "name": "majority-judgment",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Sort candidates according to majority judgment",
   "main": "index.js",
   "scripts": {

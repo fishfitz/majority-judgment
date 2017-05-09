@@ -7,6 +7,9 @@ function substractOne(value, votes) {
     return votesMinusOne;
 }
 
+/*
+    Substract a single value of the median value from the votes
+*/
 function substractMedian(candidates) {
     return candidates
     .map(c => Object.assign({}, c, { votes: substractOne(c.tieNote, c.votes) }));
