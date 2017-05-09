@@ -16,10 +16,13 @@ The tiebreaker process is described below:
 
 **Important note:** this library currently does not perform any sanity check of the provided data. You must ensure yourself that your votes are correct.
 
-I haven't had time yet to write any formal tests (though you can find some in /tests/majorityJudgment.js). Any help would be welcome.
-
 ## Install
 `npm install majority-judgment --save`
+
+## Test
+Using [mocha](https://mochajs.org/):
+
+`npm run test`
 
 ## API
 

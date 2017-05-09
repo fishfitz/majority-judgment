@@ -115,7 +115,9 @@ function writeRanks(candidates) {
 
 function majorityJudgment(rawCandidates) {
     // Sort all votes
-    const candidates = rawCandidates.map(c => Object.assign({}, c, { votes: c.votes.sort() }));
+    const candidates = rawCandidates.map(c => Object.assign({}, c, {
+        votes: c.votes.sort((a, b) => a - b)
+    }));
 
     // Calculate rank and tieNote of each candidate
     return writeRanks(rank([candidates]));

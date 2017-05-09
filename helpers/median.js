@@ -1,5 +1,6 @@
 /*
-    Return the median of an array of values
+    Return the median of an array of already sorted values
+    Rounded to the inferior integer value
 */
 
 module.exports = function(values) {
@@ -7,12 +8,9 @@ module.exports = function(values) {
         return values[0];
     }
 
-    let index = values.length / 2;
-    if (index % 1 === 0) {
-        // If index is an integer
-        return values[index];
+    const half = Math.floor(values.length / 2);
+    if (values.length % 2) {
+        return values[half];
     }
-
-    index = Math.floor(index);
-    return Math.floor((values[index] + values[index + 1]) / 2);
+    return Math.floor((values[half - 1] + values[half]) / 2.0);
 };
