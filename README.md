@@ -40,7 +40,7 @@ It returns a copy of the provided array, sorted according to the judgment, and w
     note: Number, // The obtained median value
     tieNote: Number, // The last median used for the tiebreaker,
     rank: Number, // Position given by the majority judgment, starts from 0 (winner)
-    perfectTie: Boolean // true if the tie is impossible to break for this candidate, undefined otherwise
+    perfectTie: Boolean, // true if the tie is impossible to break for this candidate, undefined otherwise
     dictator: Boolean // true if only one candidate was provided, undefined otherwise
 }
 ```
